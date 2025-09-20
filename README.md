@@ -53,19 +53,16 @@ https://github.com/tumuyan/Tree-Style-History/issues/1
 
 3.1.10 (2022/06/10) - Added feature: When clicking links in tree history, if a tab for this URL already exists, jump to the existing page instead of opening a new one (Also discovered during testing that browser requires upgrading manifest_version, tried but couldn't easily complete the update, hoping someone can help!).  
 
-3.1.9 (2022/1/27) 完善线性历史、线性书签的外观：为按钮增加提示文字，优化时间显示，去除线性书签的无效checkbox和无效提示内容，显示线性书签的域名分类下包含的书签数量  
+3.1.9 (2022/1/27) - Improved appearance of linear history and linear bookmarks: Added tooltip text for buttons, optimized time display, removed invalid checkboxes and invalid tooltip content from linear bookmarks, displayed number of bookmarks contained in domain categories of linear bookmarks.  
 
 3.1.8 (2021/8/9) 增加选项：在“弹窗设置”中增加“显示弹窗”选项，选择是（弹窗）否（打开树状历史）  
 
 3.1.7 (2021/6/24) 修复bug：在“最近关闭”的页面点击链接，会自动打开2个页面
 
-3.1.6 (2021/6/7) 修复bug：Chrome无法显示默认历史管理器的问题（在Edge是正常的）；线性书签无法正常显示小书签（bookmarklet）
+3.1.6 (2021/6/7) Fixed bug: Chrome unable to display default history manager (works fine in Edge); Linear bookmarks unable to properly display bookmarklets.
 
 3.1.5 (2021/5/29)  
-增加功能：线性书签标签页。  
-增加选项：指定在popup弹窗中点击“更多”时，打开浏览器默认的页面还是扩展内置页面。  
-修复bug：设置-下载参数时弹窗顺序显示有错误；日期没有自动补零。  
-已知问题：浏览器限制同一个扩展最多绑定4个快捷键，现在通过特别的方式绑定了5个快捷键，导致扩展默认快捷键无法生效，需要手动设置。
+3.1.5 (2021/5/29) - Added feature: Linear bookmarks tab. Added option: Specify whether to open browser default page or extension built-in page when clicking "More" in popup. Fixed bugs: Settings - wrong popup order when downloading parameters; dates not auto-padded with zeros. Known issue: Browser limits same extension to 4 shortcut keys maximum, now binding 5 shortcut keys through special method causes extension default shortcuts to not work, requiring manual setup.
 
 3.1.4 (2021/5/22) - 增加功能：树状历史中显示较少的历史（默认关闭，需要在设置中手动打开），批量打开最近关闭的页面。优化：微调外观，一定程度上实现了窄窗口自适应(但是使用Android kiwi浏览器测试确认手机不能实现主要功能)，统一变更过滤域名的算法  
 

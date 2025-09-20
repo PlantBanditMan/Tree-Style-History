@@ -320,7 +320,7 @@ document.addEvent('domready', function () {
         // “link”	User navigated to this URL by clicking a page link
         // “typed”	User navigated to this URL by typing in the address bar
         // “auto_bookmark”	User navigated to this URL through UI suggestions (e.g. menu items)
-        // "auto_toplevel" - Page loaded automatically as top-level frame (e.g. homepage)
+        // "auto_toplevel"  Page loaded automatically as top-level frame (e.g. homepage)
         // “auto_subframe”	Subframe navigation for non-top-level frame automatic content loading
         // “manual_subframe”	Subframe navigation explicitly requested by user
         // “generated”	User navigated to URL by selecting non-URL-like entry from address bar

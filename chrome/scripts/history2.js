@@ -305,7 +305,7 @@ document.addEvent('domready', function () {
         // “auto_bookmark”	User navigated to this URL through UI suggestions (e.g. menu items)
         // auto_toplevel： Page specified in command line or is browser start page。
         // “auto_subframe”	Subframe navigation for non-top-level frame automatic content loading
-        // “manual_subframe”	此种类型是为用户显式请求的Subframe navigation for non-top-level frame automatic content loading
+        // “manual_subframe”	Subframe navigation explicitly requested by user
         // “generated”	User navigated to URL by selecting non-URL-like entry from address bar
         // “start_page”	Page specified in command line or is the start page
         // “form_submit”	

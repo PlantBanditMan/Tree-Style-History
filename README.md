@@ -55,22 +55,22 @@ https://github.com/tumuyan/Tree-Style-History/issues/1
 
 3.1.9 (2022/1/27) - Improved appearance of linear history and linear bookmarks: Added tooltip text for buttons, optimized time display, removed invalid checkboxes and invalid tooltip content from linear bookmarks, displayed number of bookmarks contained in domain categories of linear bookmarks.  
 
-3.1.8 (2021/8/9) 增加选项：在“弹窗设置”中增加“显示弹窗”选项，选择是（弹窗）否（打开树状历史）  
+3.1.8 (2021/8/9) - Added option: In "Popup Settings" added "Show Popup" option, choose Yes (popup) or No (open tree history).
 
-3.1.7 (2021/6/24) 修复bug：在“最近关闭”的页面点击链接，会自动打开2个页面
+3.1.7 (2021/6/24) - Fixed bug: Clicking links on "Recently Closed" page automatically opens 2 pages.
 
 3.1.6 (2021/6/7) Fixed bug: Chrome unable to display default history manager (works fine in Edge); Linear bookmarks unable to properly display bookmarklets.
 
 3.1.5 (2021/5/29)  
 3.1.5 (2021/5/29) - Added feature: Linear bookmarks tab. Added option: Specify whether to open browser default page or extension built-in page when clicking "More" in popup. Fixed bugs: Settings - wrong popup order when downloading parameters; dates not auto-padded with zeros. Known issue: Browser limits same extension to 4 shortcut keys maximum, now binding 5 shortcut keys through special method causes extension default shortcuts to not work, requiring manual setup.
 
-3.1.4 (2021/5/22) - 增加功能：树状历史中显示较少的历史（默认关闭，需要在设置中手动打开），批量打开最近关闭的页面。优化：微调外观，一定程度上实现了窄窗口自适应(但是使用Android kiwi浏览器测试确认手机不能实现主要功能)，统一变更过滤域名的算法  
+3.1.4 (2021/5/22) - Added features: Show less history in tree history (default off, needs manual activation in settings), batch open recently closed pages. Optimizations: Minor appearance tweaks, some narrow window adaptation (but testing with Android Kiwi browser confirmed mobile doesn't support main features), unified algorithm for filtering domains.  
 
-3.1.3 (2021/5/18) - 增加功能：树状展示最近关闭的页面；修复：令日期和时间选项对树状历史同样生效；优化：微调外观，修改设置中的默认参数。 
+3.1.3 (2021/5/18) - Added feature: Tree display of recently closed pages; Fixed: Made date and time options also effective for tree history; Optimizations: Minor appearance tweaks, modified default parameters in settings. 
 
-3.1.2 (2021/5/11) - 优化搜索浏览记录功能，增加选项同步功能（跟随浏览器账户自动同步），增加快捷键设置（可以通过设置快捷键替换默认历史记录管理器），缓存访问历史的网址数量，优化部分UI的样式和命名，增加清除缓存功能，优化网址过滤功能。
+3.1.2 (2021/5/11) - Optimized search history function, added option sync function (auto-sync with browser account), added shortcut key settings (can replace default history manager with shortcut keys), cached visited history URL count, optimized some UI styles and naming, added clear cache function, optimized URL filtering function.
 
-3.1.1 (2021/04/26) - 为树状历史页增加访问类型筛选功能，为树状历史增加loading动画/加大行间距，增加对网址标题特殊符号的处理，历史数量较少时自动载入前日记录，调整默认的设置参数，调整Chrome设置默认历史页面的选项（Edge屏蔽此功能），增加设置页的提示文字，优化历史缓存记录，降低搜索字数限制，增加暗黑模式（根据浏览器设置自动切换），调整popup页面外观，增加右键菜单“搜索此网站的浏览记录”。
+3.1.1 (2021/04/26) - Added access type filtering for tree history page, added loading animation/increased line spacing for tree history, added handling for special characters in URL titles, auto-load previous day records when history count is low, adjusted default settings parameters, adjusted Chrome default history page setting option (Edge blocks this function), added hint text for settings page, optimized history cache records, lowered search character limit, added dark mode (auto-switch based on browser settings), adjusted popup page appearance, added right-click menu "Search this site's browsing history".
 
 3.1.0 (2021/04/18) - Add the basic tree style function.
 

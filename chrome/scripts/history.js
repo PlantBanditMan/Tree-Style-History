@@ -164,7 +164,7 @@ document.addEvent('domready', function(){
     calendar('current', '');
 
 
-            //获取Location对象的search属性值
+            // Get the search property value of the Location object
             var searchStr = location.search;
 
             if(searchStr.length>1){

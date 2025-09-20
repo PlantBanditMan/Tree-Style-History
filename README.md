@@ -17,26 +17,15 @@ Also following features are available.
 This work is based on [Recent History](https://github.com/umarsheikh13/recent-history) and has get the permission to modify and publish the code as a new exttension, many thanks to Umar.  
 Currently only Chinese and English UI are available.  
 
-树状展示浏览器历史。
-在使用浏览器访问网页时，用户往往会通过点击链接，从一个页面跳转到另一个页面。本扩展通过树状结构展示了这样的跳转关系，从而让用户能够更快地弄清楚自己当时在做什么，访问了什么网站，当时要做的事情是否已经完成。 
-除此核心功能外，还有如下特色：  
-1. 使用右键菜单，快速搜索当前网站，或者链接指向的网站的访问历史。
-2. 树状查看最近关闭的页面。根据关闭页面的时间、是否正常关闭对页面自动分组。批量打开一个分组的全部页面。
-3. 线性查看书签。通常浏览器使用树状结构展示书签；本扩展反其道而行，按照时间和网站重新排序并展示书签，方便查看和整理最新收藏的内容。
-4. 快速切换最近访问的标签页。在弹窗中按照访问时刻倒序排列标签页。
-
-灵感来自Firefox扩展[voyage](https://docs.google.com/document/d/1oaJjS9zWGQDBzy4wE403P7V2nQukMql_sfvAURl2noI/preview)，后来ff飙版本的时候这个扩展就废了，现在连发布页都被删除。  
-我一直没有再见到类似的扩展，所以自己就搓了一个，算是完成多年夙愿。  
-基于Umar的扩展[Recent History](https://github.com/umarsheikh13/recent-history)修改，已经获得原作者Umar的许可可以修改并且作为一个新的扩展进行发布，非常感谢他的劳动和许可。 
+The inspiration came from the Firefox extension [voyage](https://docs.google.com/document/d/1oaJjS9zWGQDBzy4wE403P7V2nQukMql_sfvAURl2noI/preview), which became obsolete when Firefox updated rapidly and its page was eventually removed.  
+Since I never found a similar extension, I created this one to fulfill a long-standing wish.  
+Based on Umar's [Recent History](https://github.com/umarsheikh13/recent-history) extension with permission from the original author to modify and publish as a new extension. Many thanks for his work and permission. 
 
 
 ## Policy  
 
 Tree Style History collects your browser history, analyzes it and stores it on your computer, and shows it when needed.   
 It does not upload data to the Internet or share it with other programs. When you uninstall the extension, all saved data will be automatically erased by the browser.  
-
-Tree Style History会收集您的浏览器记录，分析并存储到您的计算机内，并在需要的时候进行展示。  
-它不会上传数据上传到互联网或者分享给其他程序。当您卸载扩展时，所有保存的数据均会被浏览器自动清除。  
 
 
 ## Install  
@@ -51,31 +40,18 @@ https://github.com/tumuyan/Tree-Style-History/issues/1
 
 **Both Chrome and Edge require extensions adapt to Manifest V3, but I couldn't update this extension to Manifest V3, so this extension will soon become unusable.**
 
-已经上传到Edge外接程序商店
-https://microsoftedge.microsoft.com/addons/detail/gfmkhnaldbgcpoddmapciblllofekbpn  
-
-我没有Chrome商店的开发者帐号,但是有网友代上传了Chrome商店.
-https://chrome.google.com/webstore/detail/tree-style-history/khcenbpnhbeplojhaolbpldmoppicold  
-
-或者打开浏览器的开发者模式，[下载压缩包](https://github.com/tumuyan/Tree-Style-History/archive/refs/heads/main.zip)解压并载入  
-https://jingyan.baidu.com/article/ca2d939dfa5762ab6d31ce10.html  
-https://github.com/tumuyan/Tree-Style-History/issues/1  
-
-
-**Chrome和Edge都要求浏览器扩展适配manifest v3，但是由于我无法把此扩展更新到manifest v3，此扩展即将无法使用**
-
 ![screenshot](screen.jpg)
 
-## Changlog
+## Changelog
 
 
-3.1.13 (2024/04/29) 调整popup窗口所能显示的项目数量的上限，处理favicon 为空的情况。
+3.1.13 (2024/04/29) - Adjusted maximum number of items displayed in popup window, handled cases where favicon is empty.
 
-3.1.12 (2022/06/23) 增加功能：在弹窗中显示最近浏览的标签页，快速切换标签页; 优化功能（弹窗中的最近关闭的标签页）：数据改为从Chrome API获取，点击改为恢复会话而不是打开网页，关闭窗口显示一笔记录点击时可以直接恢复窗口 
+3.1.12 (2022/06/23) - Added feature: Display recently browsed tabs in popup for quick tab switching; Optimized feature (recently closed tabs in popup): Data now retrieved from Chrome API, clicking restores session instead of opening webpage, closing window shows one record which directly restores window when clicked. 
 
-3.1.11 (2022/06/11) 修改选项：自定义点击图标后的动作；调整右键菜单的文本，增加是否显示右键菜单的开关(#15)  
+3.1.11 (2022/06/11) - Modified option: Customize action after clicking icon; Adjusted right-click menu text, added toggle for showing right-click menu (#15).  
 
-3.1.10 (2022/06/10) 增加功能：在树状历史中点击链接时，如果已经有此网址对应的标签页，则跳转到已经打开的页面，而不新打开页面（另外在测试时发现浏览器要求升级manifest_version，试了试不太能轻松搞定，希望有朋友来帮忙完成更新！）  
+3.1.10 (2022/06/10) - Added feature: When clicking links in tree history, if a tab for this URL already exists, jump to the existing page instead of opening a new one (Also discovered during testing that browser requires upgrading manifest_version, tried but couldn't easily complete the update, hoping someone can help!).  
 
 3.1.9 (2022/1/27) 完善线性历史、线性书签的外观：为按钮增加提示文字，优化时间显示，去除线性书签的无效checkbox和无效提示内容，显示线性书签的域名分类下包含的书签数量  
 
